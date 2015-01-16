@@ -1,0 +1,48 @@
+/*This css specially made only for training dashboard */
+body{
+	color:#fff !important;
+}
+
+.black-line-hr{
+	border: 0px; height: 1px; background: #111; background-image: -webkit-linear-gradient(left, #111, #000, #111); background-image: -moz-linear-gradient(left, #111, #000, #111); background-image: -ms-linear-gradient(left, #111, #000, #111); background-image: -o-linear-gradient(left, #111, #000, #111); 
+	margin-top:2px;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #F9F7F7 !important;
+font-family: 'Lato', sans-serif;
+}
+.inner-container{
+	margin-top:10px;
+	padding:5px;
+}
+.main-container{
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+}
+.div-left-margin{
+	display:inline;
+	border-left: 2px #E4E829 solid;
+	padding: 2px;
+}
+.puma-jump{
+	margin-top: 20px; 
+	height: 250px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.div-box-content{
+	background:url("http://api.thumbr.it/whitenoise-361x370.png?background=941307&noise=080808&density=26&opacity=19");
+	height:100px;
+	width:80px;
+	display:inline-block;
+	margin-left:20px;
+	font-size:13px;
+	border: 1px #941307 solid;
+	text-align: center;
+	font-style: oblique;
+	word-wrap: break-word;
+    vertical-align: middle;
+	padding-top: 30px;
+}

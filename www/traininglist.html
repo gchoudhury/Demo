@@ -1,0 +1,218 @@
+<!DOCTYPE html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--Declare page as mobile friendly --> 
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+<!-- Declare page as iDevice WebApp friendly -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png"> 
+<!-- iPhone 3, 3Gs -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" /> 
+<!-- iPhone 4 -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<!-- iPhone 5 -->
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+
+<!-- Page Title -->
+<title>Puma Demo App</title>
+
+<!-- Stylesheet Load -->
+<link href="styles/style.css"				rel="stylesheet" type="text/css">
+<link href="styles/framework-style.css" 	rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 			rel="stylesheet" type="text/css">
+<link href="styles/bxslider.css"			rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"			rel="stylesheet" type="text/css">
+<link href="styles/icons.css"				rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+<link href="styles/retina.css" 				rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
+
+
+<!--Page Scripts Load -->
+<script src="scripts/jquery.min.js"		 type="text/javascript"></script>	
+<script src="scripts/snap.js"			 type="text/javascript"></script>
+<script src="scripts/hammer.js"			 type="text/javascript"></script>	
+<script src="scripts/jquery-ui-min.js"   type="text/javascript"></script>
+<script src="scripts/subscribe.js"		 type="text/javascript"></script>
+<script src="scripts/contact.js"		 type="text/javascript"></script>
+<script src="scripts/jquery.swipebox.js" type="text/javascript"></script>
+<script src="scripts/bxslider.js"		 type="text/javascript"></script>
+<script src="scripts/colorbox.js"		 type="text/javascript"></script>
+<script src="scripts/retina.js"			 type="text/javascript"></script>
+<script src="scripts/custom.js"			 type="text/javascript"></script>
+<script src="scripts/framework.js"		 type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="all-elements">
+    
+    <div id="sidebar" class="page-sidebar">
+        <div class="page-sidebar-scroll">
+			<div class="sidebar-header">
+            	<a href="#" class="delete-sidebar"></a>
+            	<!-- <img class="sidebar-logo" src="images/misc/logo.png" width="63" alt="img"> -->
+            </div>
+            
+            <p class="sidebar-separator">NAVIGATION</p>
+            <a href="index.html" class="nav-item home-nav">						HOME		<em class="nav-page"></em></a>
+            <a href="type.html" class="nav-item type-nav">						TYPOGRAPHY	<em class="nav-page"></em></a>
+            <a href="jquer.html" class="nav-item jquery-nav">					jQUERY		<em class="nav-page"></em></a>
+            <a href="other.html" class="nav-item other-nav">					OTHERS		<em class="nav-page"></em></a>
+            <a href="gallery.html" class="nav-item gallery-nav">				GALLERY		<em class="nav-page"></em></a>
+            <a href="portfolio.html" class="nav-item portfolio-nav">			PORTFOLIO	<em class="nav-onit"></em></a>
+            <a href="videos.html" class="nav-item videos-nav">					VIDEOS		<em class="nav-page"></em></a>
+            <a href="contact.html" class="nav-item contact-nav no-border">		CONTACT		<em class="nav-page"></em></a>
+            </div>
+    </div>
+       
+    <div id="content" class="page-content">
+        <div class="page-header">
+            <!-- <p class="logo">
+                <img src="images/misc/Student1.jpg" width="25" style="border-radius:5px;">
+				
+            </p> -->
+			<div class="logo">
+				<div class="logo-image">
+					<img src="images/misc/Student1.jpg" width="25" style="border-radius:5px;">
+				</div>
+				<div class="logo-text">
+					<h5>John</h5>
+				</div>
+				<div class="logo-action">
+					<a href="#" class="myButton-small"><i class="fa fa-bell fa-1x"></i></a>
+				</div>	
+			</div>
+            <a href="#" class="deploy-sidebar"></a>
+        </div>  
+                  
+      <div class="container no-bottom">
+			 <div class="portfolio-item-full-width">
+				<h3>PUMA Training</h3>
+				<div class="decoration" style="margin-left:0px !important; background-color:#350C0C; border-bottom: solid 1px #AE9595; height:2px; margin-right:auto;"></div>
+				<div class="search">
+					<i class="fa fa-search" style="font-size:25px; padding-left:5px; color:black;"></i>
+					<input class="searchbox" type="text" value="Enter course name" >
+				</div>
+				<div class="training-list">
+					<div class="training-list-image">
+						<img class="" src="images/slider/Puma_evoSPEED.jpg" alt="img" style="max-width:120%;">
+					</div>
+					<div class="training-list-stats">
+						<!-- progress -->
+						<h4 class="uppercase">evopower 4g</h4>
+							<span class="stat-background">
+								<span class="stat-cleaner"></span>
+								<span class="percent green-minimal  p70"></span>
+							</span>
+						<h5>In-Progress 75%</h5>
+					</div>
+					<div class="training-list-actions">
+						<a href="videos.html" class="myButton-small" onClick="window.location='videos.html'"><i class="fa fa-rocket fa-1x"></i></a>
+						<a href="#" class="myButton-small" style="margin-top:-5px;"><i class="fa fa-clipboard fa-1x"></i></a>
+					</div>
+				</div>
+				<!-- <div class="decoration"></div> -->
+				<div class="training-list">
+					<div class="training-list-image">
+						<img class="" src="images/slider/pumass.png" alt="img" style="max-width:120%;">
+					</div>
+					<div class="training-list-stats">
+						<!-- progress -->
+						<h4 class="uppercase">Anthem Jacket</h4>
+							<span class="stat-background">
+								<span class="stat-cleaner"></span>
+								<span class="percent green-minimal  p70"></span>
+							</span>
+						<h5>In-Progress 75%</h5>
+					</div>
+					<div class="training-list-actions">
+						<a href="videos.html" class="myButton-small" onClick="window.location='videos.html'"><i class="fa fa-rocket fa-1x"></i></a>
+						<a href="#" class="myButton-small" style="margin-top:-5px;"><i class="fa fa-clipboard fa-1x"></i></a>
+					</div>
+				</div>
+				<!-- <div class="decoration"></div> -->
+				<div class="training-list">
+					<div class="training-list-image">
+						<img class="" src="images/slider/Puma-bytes-phone-case.jpg" alt="img" style="max-width:120%;">
+					</div>
+					<div class="training-list-stats">
+						<!-- progress -->
+						<h4 class="uppercase">Phone Case</h4>
+							<span class="stat-background">
+								<span class="stat-cleaner"></span>
+								<span class="percent green-minimal  p70"></span>
+							</span>
+						<h5>In-Progress 75%</h5>
+					</div>
+					<div class="training-list-actions">
+						<a href="videos.html" class="myButton-small" onClick="window.location='videos.html'"><i class="fa fa-rocket fa-1x"></i></a>
+						<a href="#" class="myButton-small" style="margin-top:-5px;"><i class="fa fa-clipboard fa-1x"></i></a>
+					</div>
+				</div>
+				<div class="training-list">
+					<div class="training-list-image">
+						<img class="" src="images/slider/PUMA_Clyde.jpg" alt="img" style="max-width:120%;">
+					</div>
+					<div class="training-list-stats">
+						<!-- progress -->
+						<h4 class="uppercase">Puma Clyde</h4>
+							<span class="stat-background">
+								<span class="stat-cleaner"></span>
+								<span class="percent green-minimal  p70"></span>
+							</span>
+						<h5>In-Progress 75%</h5>
+					</div>
+					<div class="training-list-actions">
+						<a href="videos.html" class="myButton-small" onClick="window.location='videos.html'"><i class="fa fa-rocket fa-1x"></i></a>
+						<a href="#" class="myButton-small" style="margin-top:-5px;"><i class="fa fa-clipboard fa-1x"></i></a>
+					</div>
+				</div>
+        	</div>
+            
+        </div>      
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
